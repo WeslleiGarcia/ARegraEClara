@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8121.17" systemVersion="14E46" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="bTe-Eb-A76">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8101.14"/>
+    </dependencies>
+    <scenes>
+        <!--Regras-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="ARegraEClara" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Regras" id="eC8-Pg-hYh"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="130" y="-219"/>
+        </scene>
+        <!--View Controller Topicos Regras-->
+        <scene sceneID="Bna-xE-1k9">
+            <objects>
+                <viewController id="yyV-Cb-r5Y" customClass="UIViewControllerTopicosRegras" customModule="ARegraEClara" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="EZg-zw-ZDb"/>
+                        <viewControllerLayoutGuide type="bottom" id="i1T-3B-eVT"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="PsL-P3-R0n">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="U1d-nC-KZy" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="584" y="-219"/>
+        </scene>
+        <!--Quiz-->
+        <scene sceneID="Ljr-UQ-Loc">
+            <objects>
+                <viewController id="yFW-Qm-dPx" customClass="UIViewControllerQuiz" customModule="ARegraEClara" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="pDQ-uv-dn4"/>
+                        <viewControllerLayoutGuide type="bottom" id="uvW-85-jw7"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="C3n-gs-cJc">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Quiz" id="URU-LU-tGP"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="rWU-IX-CTw" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="130" y="699"/>
+        </scene>
+        <!--View Controller Perguntas-->
+        <scene sceneID="wh1-Yu-Trg">
+            <objects>
+                <viewController id="Qgf-eP-erC" customClass="UIViewControllerPerguntas" customModule="ARegraEClara" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="sg3-zM-2GR"/>
+                        <viewControllerLayoutGuide type="bottom" id="txT-F4-D9j"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="qO9-31-o9V">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="KeQ-ne-Nky" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="506" y="844"/>
+        </scene>
+        <!--View Controller Ranking-->
+        <scene sceneID="aKE-F1-chd">
+            <objects>
+                <viewController id="Spm-6v-ymy" customClass="UIViewControllerRanking" customModule="ARegraEClara" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="oIw-Uq-wAb"/>
+                        <viewControllerLayoutGuide type="bottom" id="LZk-Bs-jsP"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Dkl-pd-hfW">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Hwh-Uh-Awz" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="924" y="1082"/>
+        </scene>
+        <!--View Controller Quiz Campeonato-->
+        <scene sceneID="Jf9-3n-XK5">
+            <objects>
+                <viewController id="jvn-eU-16f" customClass="UIViewControllerQuizCampeonato" customModule="ARegraEClara" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="olq-4U-cbl"/>
+                        <viewControllerLayoutGuide type="bottom" id="N98-kp-btJ"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="hLe-gB-pSL">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="LPW-lZ-YZB" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1318" y="1097"/>
+        </scene>
+        <!--View Controller Fim Jogo-->
+        <scene sceneID="PNW-4T-11G">
+            <objects>
+                <viewController id="A4L-JU-q4z" customClass="UIViewControllerFimJogo" customModule="ARegraEClara" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="B5R-De-GJe"/>
+                        <viewControllerLayoutGuide type="bottom" id="LKT-Ni-rwB"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="5Wu-Eo-fy4">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="vL9-bq-8ew" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1673" y="1145"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="Nds-7a-jai">
+            <objects>
+                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="bTe-Eb-A76" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <nil key="simulatedBottomBarMetrics"/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="0CD-cj-m1b">
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="viewControllers" id="TTd-mJ-kUj"/>
+                        <segue destination="yFW-Qm-dPx" kind="relationship" relationship="viewControllers" id="k6z-Nn-ASF"/>
+                        <segue destination="T9K-cZ-qna" kind="relationship" relationship="viewControllers" id="L3B-5K-SSx"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="l8w-D6-fTZ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-324" y="90"/>
+        </scene>
+        <!--Perfil-->
+        <scene sceneID="h14-Ue-fNx">
+            <objects>
+                <viewController id="T9K-cZ-qna" customClass="UIViewControllerPerfil" customModule="ARegraEClara" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Y32-T9-8wC"/>
+                        <viewControllerLayoutGuide type="bottom" id="Jvv-0f-FAF"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="hr5-NG-JL9">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Perfil" id="yma-fU-oj7"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="VE0-ap-Ts1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-346" y="925"/>
+        </scene>
+    </scenes>
+</document>
