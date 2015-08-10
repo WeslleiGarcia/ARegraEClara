@@ -23,6 +23,9 @@
 		C35330FF1B74F34500BE9D96 /* UIViewControllerQuizCampeonato.swift in Sources */ = {isa = PBXBuildFile; fileRef = C35330FE1B74F34500BE9D96 /* UIViewControllerQuizCampeonato.swift */; };
 		C35331011B74F37C00BE9D96 /* UIViewControllerChamarAmigos.swift in Sources */ = {isa = PBXBuildFile; fileRef = C35331001B74F37C00BE9D96 /* UIViewControllerChamarAmigos.swift */; };
 		C35331031B74F3B700BE9D96 /* UIViewControllerFimJogo.swift in Sources */ = {isa = PBXBuildFile; fileRef = C35331021B74F3B700BE9D96 /* UIViewControllerFimJogo.swift */; };
+		C379491C1B7963C20070938D /* Campeonato.swift in Sources */ = {isa = PBXBuildFile; fileRef = C379491B1B7963C20070938D /* Campeonato.swift */; };
+		C379491E1B7964DF0070938D /* Ranking.swift in Sources */ = {isa = PBXBuildFile; fileRef = C379491D1B7964DF0070938D /* Ranking.swift */; };
+		C37949201B7966D20070938D /* UIViewControllerEditarPerfil.swift in Sources */ = {isa = PBXBuildFile; fileRef = C379491F1B7966D20070938D /* UIViewControllerEditarPerfil.swift */; };
 		C3BC989C1B752C8C00982370 /* myCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3BC989B1B752C8C00982370 /* myCell.swift */; };
 		C3BC989E1B75454A00982370 /* UIViewControllerRegras.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3BC989D1B75454A00982370 /* UIViewControllerRegras.swift */; };
 		C3EA26721B79313500463657 /* Regra.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3EA26711B79313500463657 /* Regra.swift */; };
@@ -71,6 +74,9 @@
 		C35330FE1B74F34500BE9D96 /* UIViewControllerQuizCampeonato.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UIViewControllerQuizCampeonato.swift; path = ARegraEClara/UIViewControllerQuizCampeonato.swift; sourceTree = "<group>"; };
 		C35331001B74F37C00BE9D96 /* UIViewControllerChamarAmigos.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UIViewControllerChamarAmigos.swift; path = ARegraEClara/UIViewControllerChamarAmigos.swift; sourceTree = "<group>"; };
 		C35331021B74F3B700BE9D96 /* UIViewControllerFimJogo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UIViewControllerFimJogo.swift; path = ARegraEClara/UIViewControllerFimJogo.swift; sourceTree = "<group>"; };
+		C379491B1B7963C20070938D /* Campeonato.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Campeonato.swift; sourceTree = "<group>"; };
+		C379491D1B7964DF0070938D /* Ranking.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Ranking.swift; sourceTree = "<group>"; };
+		C379491F1B7966D20070938D /* UIViewControllerEditarPerfil.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewControllerEditarPerfil.swift; sourceTree = "<group>"; };
 		C3BC989B1B752C8C00982370 /* myCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = myCell.swift; sourceTree = "<group>"; };
 		C3BC989D1B75454A00982370 /* UIViewControllerRegras.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UIViewControllerRegras.swift; path = ARegraEClara/UIViewControllerRegras.swift; sourceTree = "<group>"; };
 		C3EA26711B79313500463657 /* Regra.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Regra.swift; sourceTree = "<group>"; };
@@ -131,6 +137,7 @@
 				C35331041B74F3C700BE9D96 /* View */,
 				C35330C31B74F0BD00BE9D96 /* AppDelegate.swift */,
 				C35330C71B74F0BD00BE9D96 /* Main.storyboard */,
+				C379491F1B7966D20070938D /* UIViewControllerEditarPerfil.swift */,
 				C35330CD1B74F0BD00BE9D96 /* Assets.xcassets */,
 				C35330CF1B74F0BD00BE9D96 /* LaunchScreen.storyboard */,
 				C35330D21B74F0BD00BE9D96 /* Info.plist */,
@@ -183,6 +190,8 @@
 			children = (
 				C3EA26711B79313500463657 /* Regra.swift */,
 				C3EA26781B794F1B00463657 /* Jogador.swift */,
+				C379491B1B7963C20070938D /* Campeonato.swift */,
+				C379491D1B7964DF0070938D /* Ranking.swift */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -319,6 +328,7 @@
 			files = (
 				C35330F51B74F1CC00BE9D96 /* UIViewControllerTopicosRegras.swift in Sources */,
 				C3BC989C1B752C8C00982370 /* myCell.swift in Sources */,
+				C379491E1B7964DF0070938D /* Ranking.swift in Sources */,
 				C35330CC1B74F0BD00BE9D96 /* ARegraEClara.xcdatamodeld in Sources */,
 				C3BC989E1B75454A00982370 /* UIViewControllerRegras.swift in Sources */,
 				C35330C61B74F0BD00BE9D96 /* ViewController.swift in Sources */,
@@ -329,10 +339,12 @@
 				C35330F71B74F1F100BE9D96 /* UIViewControllerQuiz.swift in Sources */,
 				C3EA26721B79313500463657 /* Regra.swift in Sources */,
 				C3EA26761B79461300463657 /* UIViewControllerDetalheRegra.swift in Sources */,
+				C37949201B7966D20070938D /* UIViewControllerEditarPerfil.swift in Sources */,
 				C35330FF1B74F34500BE9D96 /* UIViewControllerQuizCampeonato.swift in Sources */,
 				C35331011B74F37C00BE9D96 /* UIViewControllerChamarAmigos.swift in Sources */,
 				C35330FD1B74F30D00BE9D96 /* UIViewControllerRanking.swift in Sources */,
 				C3EA26741B793DD300463657 /* CustomCellRegra.swift in Sources */,
+				C379491C1B7963C20070938D /* Campeonato.swift in Sources */,
 				C35331031B74F3B700BE9D96 /* UIViewControllerFimJogo.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

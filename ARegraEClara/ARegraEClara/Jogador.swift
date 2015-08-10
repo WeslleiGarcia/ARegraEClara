@@ -8,7 +8,7 @@
 
 import Foundation
 
-class Jogardor {
+class Jogador {
     var nome : String?
     var pontos : Int?
     var tempo : Double?

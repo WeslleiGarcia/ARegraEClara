@@ -14,6 +14,8 @@ class UIViewControllerPerguntas: UIViewController {
     var timer = NSTimer()
     var counter = 10
     
+
+    
     
     @IBOutlet weak var lbCounter: UILabel!
     
@@ -44,6 +46,9 @@ class UIViewControllerPerguntas: UIViewController {
                 let username = theTextFields[0].text
                 
                 print("seu nome é : \(username)")
+                
+   
+                
                 
             }
             self.Timer()
