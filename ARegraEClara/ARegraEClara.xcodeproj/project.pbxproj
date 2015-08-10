@@ -25,6 +25,10 @@
 		C35331031B74F3B700BE9D96 /* UIViewControllerFimJogo.swift in Sources */ = {isa = PBXBuildFile; fileRef = C35331021B74F3B700BE9D96 /* UIViewControllerFimJogo.swift */; };
 		C3BC989C1B752C8C00982370 /* myCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3BC989B1B752C8C00982370 /* myCell.swift */; };
 		C3BC989E1B75454A00982370 /* UIViewControllerRegras.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3BC989D1B75454A00982370 /* UIViewControllerRegras.swift */; };
+		C3EA26721B79313500463657 /* Regra.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3EA26711B79313500463657 /* Regra.swift */; };
+		C3EA26741B793DD300463657 /* CustomCellRegra.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3EA26731B793DD300463657 /* CustomCellRegra.swift */; };
+		C3EA26761B79461300463657 /* UIViewControllerDetalheRegra.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3EA26751B79461300463657 /* UIViewControllerDetalheRegra.swift */; };
+		C3EA26791B794F1B00463657 /* Jogador.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3EA26781B794F1B00463657 /* Jogador.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,6 +73,10 @@
 		C35331021B74F3B700BE9D96 /* UIViewControllerFimJogo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UIViewControllerFimJogo.swift; path = ARegraEClara/UIViewControllerFimJogo.swift; sourceTree = "<group>"; };
 		C3BC989B1B752C8C00982370 /* myCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = myCell.swift; sourceTree = "<group>"; };
 		C3BC989D1B75454A00982370 /* UIViewControllerRegras.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UIViewControllerRegras.swift; path = ARegraEClara/UIViewControllerRegras.swift; sourceTree = "<group>"; };
+		C3EA26711B79313500463657 /* Regra.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Regra.swift; sourceTree = "<group>"; };
+		C3EA26731B793DD300463657 /* CustomCellRegra.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CustomCellRegra.swift; path = ARegraEClara/CustomCellRegra.swift; sourceTree = "<group>"; };
+		C3EA26751B79461300463657 /* UIViewControllerDetalheRegra.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UIViewControllerDetalheRegra.swift; path = ARegraEClara/UIViewControllerDetalheRegra.swift; sourceTree = "<group>"; };
+		C3EA26781B794F1B00463657 /* Jogador.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Jogador.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +127,7 @@
 		C35330C21B74F0BD00BE9D96 /* ARegraEClara */ = {
 			isa = PBXGroup;
 			children = (
+				C3EA26771B794EFC00463657 /* Model */,
 				C35331041B74F3C700BE9D96 /* View */,
 				C35330C31B74F0BD00BE9D96 /* AppDelegate.swift */,
 				C35330C71B74F0BD00BE9D96 /* Main.storyboard */,
@@ -152,6 +161,7 @@
 			isa = PBXGroup;
 			children = (
 				C3BC989B1B752C8C00982370 /* myCell.swift */,
+				C3EA26731B793DD300463657 /* CustomCellRegra.swift */,
 				C35330C51B74F0BD00BE9D96 /* ViewController.swift */,
 				C35331021B74F3B700BE9D96 /* UIViewControllerFimJogo.swift */,
 				C35331001B74F37C00BE9D96 /* UIViewControllerChamarAmigos.swift */,
@@ -162,9 +172,19 @@
 				C35330F61B74F1F100BE9D96 /* UIViewControllerQuiz.swift */,
 				C35330F81B74F20800BE9D96 /* UIViewControllerPerfil.swift */,
 				C3BC989D1B75454A00982370 /* UIViewControllerRegras.swift */,
+				C3EA26751B79461300463657 /* UIViewControllerDetalheRegra.swift */,
 			);
 			name = View;
 			path = ..;
+			sourceTree = "<group>";
+		};
+		C3EA26771B794EFC00463657 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C3EA26711B79313500463657 /* Regra.swift */,
+				C3EA26781B794F1B00463657 /* Jogador.swift */,
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -305,10 +325,14 @@
 				C35330FB1B74F2D300BE9D96 /* UIViewControllerPerguntas.swift in Sources */,
 				C35330C41B74F0BD00BE9D96 /* AppDelegate.swift in Sources */,
 				C35330F91B74F20800BE9D96 /* UIViewControllerPerfil.swift in Sources */,
+				C3EA26791B794F1B00463657 /* Jogador.swift in Sources */,
 				C35330F71B74F1F100BE9D96 /* UIViewControllerQuiz.swift in Sources */,
+				C3EA26721B79313500463657 /* Regra.swift in Sources */,
+				C3EA26761B79461300463657 /* UIViewControllerDetalheRegra.swift in Sources */,
 				C35330FF1B74F34500BE9D96 /* UIViewControllerQuizCampeonato.swift in Sources */,
 				C35331011B74F37C00BE9D96 /* UIViewControllerChamarAmigos.swift in Sources */,
 				C35330FD1B74F30D00BE9D96 /* UIViewControllerRanking.swift in Sources */,
+				C3EA26741B793DD300463657 /* CustomCellRegra.swift in Sources */,
 				C35331031B74F3B700BE9D96 /* UIViewControllerFimJogo.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
