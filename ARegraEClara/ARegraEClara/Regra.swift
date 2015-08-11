@@ -16,14 +16,16 @@ class Regra {
     var descricao :  String?
     var topicos : [String]?
     var descricaoTopico :  [String]?
+    var excecao : String?
     
-    init(numeroRegra : String, titulo :  String, descricao :  String, topicos : [String], descricaoTopico :  [String]){
+    init(numeroRegra : String, titulo :  String, descricao :  String, topicos : [String], descricaoTopico :  [String], excecao:String){
         
         self.numeroRegra = numeroRegra
         self.titulo = titulo
         self.descricao = descricao
         self.topicos = topicos
         self.descricaoTopico = descricaoTopico
+        self.excecao = excecao
         
     }
     

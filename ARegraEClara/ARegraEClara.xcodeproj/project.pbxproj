@@ -76,7 +76,7 @@
 		C35331021B74F3B700BE9D96 /* UIViewControllerFimJogo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UIViewControllerFimJogo.swift; path = ARegraEClara/UIViewControllerFimJogo.swift; sourceTree = "<group>"; };
 		C379491B1B7963C20070938D /* Campeonato.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Campeonato.swift; sourceTree = "<group>"; };
 		C379491D1B7964DF0070938D /* Ranking.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Ranking.swift; sourceTree = "<group>"; };
-		C379491F1B7966D20070938D /* UIViewControllerEditarPerfil.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewControllerEditarPerfil.swift; sourceTree = "<group>"; };
+		C379491F1B7966D20070938D /* UIViewControllerEditarPerfil.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UIViewControllerEditarPerfil.swift; path = ARegraEClara/UIViewControllerEditarPerfil.swift; sourceTree = "<group>"; };
 		C3BC989B1B752C8C00982370 /* myCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = myCell.swift; sourceTree = "<group>"; };
 		C3BC989D1B75454A00982370 /* UIViewControllerRegras.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UIViewControllerRegras.swift; path = ARegraEClara/UIViewControllerRegras.swift; sourceTree = "<group>"; };
 		C3EA26711B79313500463657 /* Regra.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Regra.swift; sourceTree = "<group>"; };
@@ -137,7 +137,6 @@
 				C35331041B74F3C700BE9D96 /* View */,
 				C35330C31B74F0BD00BE9D96 /* AppDelegate.swift */,
 				C35330C71B74F0BD00BE9D96 /* Main.storyboard */,
-				C379491F1B7966D20070938D /* UIViewControllerEditarPerfil.swift */,
 				C35330CD1B74F0BD00BE9D96 /* Assets.xcassets */,
 				C35330CF1B74F0BD00BE9D96 /* LaunchScreen.storyboard */,
 				C35330D21B74F0BD00BE9D96 /* Info.plist */,
@@ -178,6 +177,7 @@
 				C35330F41B74F1CC00BE9D96 /* UIViewControllerTopicosRegras.swift */,
 				C35330F61B74F1F100BE9D96 /* UIViewControllerQuiz.swift */,
 				C35330F81B74F20800BE9D96 /* UIViewControllerPerfil.swift */,
+				C379491F1B7966D20070938D /* UIViewControllerEditarPerfil.swift */,
 				C3BC989D1B75454A00982370 /* UIViewControllerRegras.swift */,
 				C3EA26751B79461300463657 /* UIViewControllerDetalheRegra.swift */,
 			);

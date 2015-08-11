@@ -10,7 +10,7 @@ import UIKit
 
 class UIViewControllerEditarPerfil: UIViewController, UIImagePickerControllerDelegate, UINavigationControllerDelegate {
     
-    @IBOutlet weak var imgPerfil: UIImageView!
+    @IBOutlet weak var imgPerfilEdit: UIImageView!
     
     @IBOutlet weak var textFieldNome: UITextField!
     
@@ -29,7 +29,7 @@ class UIViewControllerEditarPerfil: UIViewController, UIImagePickerControllerDel
     }
     
     func imagePickerController(picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [String : AnyObject]) {
-        imgPerfil.image = info[UIImagePickerControllerOriginalImage] as? UIImage
+        imgPerfilEdit.image = info[UIImagePickerControllerOriginalImage] as? UIImage
         self.dismissViewControllerAnimated(true, completion: nil)
         
     }
