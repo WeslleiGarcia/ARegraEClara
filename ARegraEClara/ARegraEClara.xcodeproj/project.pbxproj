@@ -28,6 +28,7 @@
 		C37949201B7966D20070938D /* UIViewControllerEditarPerfil.swift in Sources */ = {isa = PBXBuildFile; fileRef = C379491F1B7966D20070938D /* UIViewControllerEditarPerfil.swift */; };
 		C3BC989C1B752C8C00982370 /* myCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3BC989B1B752C8C00982370 /* myCell.swift */; };
 		C3BC989E1B75454A00982370 /* UIViewControllerRegras.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3BC989D1B75454A00982370 /* UIViewControllerRegras.swift */; };
+		C3D2F9E01B7AEA46002DEBAC /* RegraLine.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3D2F9DF1B7AEA46002DEBAC /* RegraLine.swift */; };
 		C3EA26721B79313500463657 /* Regra.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3EA26711B79313500463657 /* Regra.swift */; };
 		C3EA26741B793DD300463657 /* CustomCellRegra.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3EA26731B793DD300463657 /* CustomCellRegra.swift */; };
 		C3EA26761B79461300463657 /* UIViewControllerDetalheRegra.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3EA26751B79461300463657 /* UIViewControllerDetalheRegra.swift */; };
@@ -79,6 +80,7 @@
 		C379491F1B7966D20070938D /* UIViewControllerEditarPerfil.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UIViewControllerEditarPerfil.swift; path = ARegraEClara/UIViewControllerEditarPerfil.swift; sourceTree = "<group>"; };
 		C3BC989B1B752C8C00982370 /* myCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = myCell.swift; sourceTree = "<group>"; };
 		C3BC989D1B75454A00982370 /* UIViewControllerRegras.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UIViewControllerRegras.swift; path = ARegraEClara/UIViewControllerRegras.swift; sourceTree = "<group>"; };
+		C3D2F9DF1B7AEA46002DEBAC /* RegraLine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegraLine.swift; sourceTree = "<group>"; };
 		C3EA26711B79313500463657 /* Regra.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Regra.swift; sourceTree = "<group>"; };
 		C3EA26731B793DD300463657 /* CustomCellRegra.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CustomCellRegra.swift; path = ARegraEClara/CustomCellRegra.swift; sourceTree = "<group>"; };
 		C3EA26751B79461300463657 /* UIViewControllerDetalheRegra.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UIViewControllerDetalheRegra.swift; path = ARegraEClara/UIViewControllerDetalheRegra.swift; sourceTree = "<group>"; };
@@ -189,6 +191,7 @@
 			isa = PBXGroup;
 			children = (
 				C3EA26711B79313500463657 /* Regra.swift */,
+				C3D2F9DF1B7AEA46002DEBAC /* RegraLine.swift */,
 				C3EA26781B794F1B00463657 /* Jogador.swift */,
 				C379491B1B7963C20070938D /* Campeonato.swift */,
 				C379491D1B7964DF0070938D /* Ranking.swift */,
@@ -340,6 +343,7 @@
 				C3EA26721B79313500463657 /* Regra.swift in Sources */,
 				C3EA26761B79461300463657 /* UIViewControllerDetalheRegra.swift in Sources */,
 				C37949201B7966D20070938D /* UIViewControllerEditarPerfil.swift in Sources */,
+				C3D2F9E01B7AEA46002DEBAC /* RegraLine.swift in Sources */,
 				C35330FF1B74F34500BE9D96 /* UIViewControllerQuizCampeonato.swift in Sources */,
 				C35331011B74F37C00BE9D96 /* UIViewControllerChamarAmigos.swift in Sources */,
 				C35330FD1B74F30D00BE9D96 /* UIViewControllerRanking.swift in Sources */,

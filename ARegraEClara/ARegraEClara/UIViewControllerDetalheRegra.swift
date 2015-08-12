@@ -22,8 +22,8 @@ class UIViewControllerDetalheRegra: UIViewController, UITableViewDataSource, UIT
     
     func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         // #warning Incomplete implementation, return the number of rows
-        
-       return (regra?.topicos?.count)!
+     
+       return (regra!.topicos?.count)!
     }
     
     
@@ -33,7 +33,7 @@ class UIViewControllerDetalheRegra: UIViewController, UITableViewDataSource, UIT
         //let CellExcecao = tableView.dequeueReusableCellWithIdentifier("CellExcecao", forIndexPath: indexPath) as! //CustomCellExcecao
         
         // Configure the cell...
-        
+
         cell.textLabel?.text = regra!.topicos![indexPath.row]
      
         
