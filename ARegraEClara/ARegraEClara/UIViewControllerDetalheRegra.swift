@@ -8,12 +8,14 @@
 
 import UIKit
 
+
+
 class UIViewControllerDetalheRegra: UIViewController, UITableViewDataSource, UITableViewDelegate  {
    
     @IBOutlet weak var tableViewTopicosExcecoes: UITableView!
     @IBOutlet weak var textViewDescricao: UITextView!
     
-     var regra : Regra?
+    var regra : Regra?
     
     func numberOfSectionsInTableView(tableView: UITableView) -> Int {
         // #warning Incomplete implementation, return the number of sections
@@ -22,7 +24,6 @@ class UIViewControllerDetalheRegra: UIViewController, UITableViewDataSource, UIT
     
     func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         // #warning Incomplete implementation, return the number of rows
-     
        return (regra!.topicos?.count)!
     }
     
@@ -33,8 +34,9 @@ class UIViewControllerDetalheRegra: UIViewController, UITableViewDataSource, UIT
         //let CellExcecao = tableView.dequeueReusableCellWithIdentifier("CellExcecao", forIndexPath: indexPath) as! //CustomCellExcecao
         
         // Configure the cell...
-
-        cell.textLabel?.text = regra!.topicos![indexPath.row]
+//        let regraLine = regraLines[indexPath.section]
+//        let regra = regraLine.regras[indexPath.row]
+        cell.textLabel?.text =  regra!.topicos![indexPath.row]  //regra!.topicos![indexPath.row]
      
         
         return cell
@@ -49,6 +51,14 @@ class UIViewControllerDetalheRegra: UIViewController, UITableViewDataSource, UIT
         return  "Tópicos"
     }
     
+    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
+        //SegueDetalheRegra
+        if segue.identifier == "SegueDetalheTopicoRegra"{
+            let row = tableViewTopicosExcecoes.indexPathForCell(sender as! UITableViewCell)?.row
+            (segue.destinationViewController as! UIViewControllerTopicosRegras).topicoRegra = regras[row!]//consertar aqui porque nao pega meu topicos regra e sim as regras da view anterior
+        }
+        
+    }
 
     
     

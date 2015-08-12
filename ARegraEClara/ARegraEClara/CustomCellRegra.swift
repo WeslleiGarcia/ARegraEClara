@@ -14,6 +14,7 @@ class CustomCellRegra: UITableViewCell {
     
     @IBOutlet weak var lbTituloRegra: UILabel!
     
+    @IBOutlet weak var imgRegra: UIImageView!
     
     override func awakeFromNib() {
         super.awakeFromNib()

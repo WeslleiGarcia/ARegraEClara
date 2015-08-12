@@ -176,12 +176,12 @@
 				C35330FE1B74F34500BE9D96 /* UIViewControllerQuizCampeonato.swift */,
 				C35330FC1B74F30D00BE9D96 /* UIViewControllerRanking.swift */,
 				C35330FA1B74F2D300BE9D96 /* UIViewControllerPerguntas.swift */,
-				C35330F41B74F1CC00BE9D96 /* UIViewControllerTopicosRegras.swift */,
 				C35330F61B74F1F100BE9D96 /* UIViewControllerQuiz.swift */,
 				C35330F81B74F20800BE9D96 /* UIViewControllerPerfil.swift */,
 				C379491F1B7966D20070938D /* UIViewControllerEditarPerfil.swift */,
-				C3BC989D1B75454A00982370 /* UIViewControllerRegras.swift */,
+				C35330F41B74F1CC00BE9D96 /* UIViewControllerTopicosRegras.swift */,
 				C3EA26751B79461300463657 /* UIViewControllerDetalheRegra.swift */,
+				C3BC989D1B75454A00982370 /* UIViewControllerRegras.swift */,
 			);
 			name = View;
 			path = ..;

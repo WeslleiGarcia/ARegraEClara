@@ -7,7 +7,7 @@
 //
 
 import Foundation
-
+import UIKit
 class Regra {
     
     
@@ -17,8 +17,9 @@ class Regra {
     var topicos : [String]?
     var descricaoTopico :  [String]?
     var excecao : String?
+    var imagem : UIImage?
     
-    init(numeroRegra : String, titulo :  String, descricao :  String, topicos : [String], descricaoTopico :  [String], excecao:String){
+    init(numeroRegra : String, titulo :  String, descricao :  String, topicos : [String], descricaoTopico :  [String], excecao:String, nomeImagem: String){
         
         self.numeroRegra = numeroRegra
         self.titulo = titulo
@@ -27,6 +28,19 @@ class Regra {
         self.descricaoTopico = descricaoTopico
         self.excecao = excecao
         
+        let img = UIImage(named: nomeImagem)
+        imagem = img
+    
+        
     }
     
 }
+
+
+
+var regras: [Regra]{
+    var regraLine = RegraLine.regraLine()
+    return regraLine[0].regras
+}
+
+
