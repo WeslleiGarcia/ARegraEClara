@@ -8,7 +8,7 @@
 
 import Foundation
 class Ranking {
-    var jogador : Jogador?
+    var jogadores : [Jogador]?
     var primeiroColocado : Int?
     var ultimoColocado : Int?
 }

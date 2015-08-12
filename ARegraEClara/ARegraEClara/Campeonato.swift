@@ -8,16 +8,23 @@
 //
 
 import Foundation
+import UIKit
 
 class Campeonato {
-    var nomeCampeonato :  String?
-    var pais : String?
-    var qtdClubesPrincipais : String?
+    var nome :  String?
+    var pais : Pais
+    var clubes : [Clube]?
+    var imagem : UIImage?
+   
     
-    init(nomeCampeonato : String, pais: String, qtdClubesPrincipais: String){
-        self.nomeCampeonato = nomeCampeonato
-        self.pais = pais
-        self.qtdClubesPrincipais = qtdClubesPrincipais
+    init(nomeCampeonato : String, paisCampeonato: Pais, clubesPrincipais: [Clube], image:String){
+        self.nome = nomeCampeonato
+        self.pais = paisCampeonato
+        self.clubes = clubesPrincipais
+        
+        let img = UIImage(named: image)
+        imagem = img
+        
     }
     
 }

@@ -26,6 +26,11 @@
 		C379491C1B7963C20070938D /* Campeonato.swift in Sources */ = {isa = PBXBuildFile; fileRef = C379491B1B7963C20070938D /* Campeonato.swift */; };
 		C379491E1B7964DF0070938D /* Ranking.swift in Sources */ = {isa = PBXBuildFile; fileRef = C379491D1B7964DF0070938D /* Ranking.swift */; };
 		C37949201B7966D20070938D /* UIViewControllerEditarPerfil.swift in Sources */ = {isa = PBXBuildFile; fileRef = C379491F1B7966D20070938D /* UIViewControllerEditarPerfil.swift */; };
+		C39452851B7BE2C4006C0257 /* Clube.swift in Sources */ = {isa = PBXBuildFile; fileRef = C39452841B7BE2C4006C0257 /* Clube.swift */; };
+		C39452871B7BEAD3006C0257 /* ClubeLine.swift in Sources */ = {isa = PBXBuildFile; fileRef = C39452861B7BEAD3006C0257 /* ClubeLine.swift */; };
+		C39452891B7BEE12006C0257 /* CampeonatoLine.swift in Sources */ = {isa = PBXBuildFile; fileRef = C39452881B7BEE12006C0257 /* CampeonatoLine.swift */; };
+		C394528B1B7BF38F006C0257 /* Pergunta.swift in Sources */ = {isa = PBXBuildFile; fileRef = C394528A1B7BF38F006C0257 /* Pergunta.swift */; };
+		C394528D1B7BF50E006C0257 /* PerguntaLine.swift in Sources */ = {isa = PBXBuildFile; fileRef = C394528C1B7BF50E006C0257 /* PerguntaLine.swift */; };
 		C3BC989C1B752C8C00982370 /* myCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3BC989B1B752C8C00982370 /* myCell.swift */; };
 		C3BC989E1B75454A00982370 /* UIViewControllerRegras.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3BC989D1B75454A00982370 /* UIViewControllerRegras.swift */; };
 		C3D2F9E01B7AEA46002DEBAC /* RegraLine.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3D2F9DF1B7AEA46002DEBAC /* RegraLine.swift */; };
@@ -78,6 +83,11 @@
 		C379491B1B7963C20070938D /* Campeonato.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Campeonato.swift; sourceTree = "<group>"; };
 		C379491D1B7964DF0070938D /* Ranking.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Ranking.swift; sourceTree = "<group>"; };
 		C379491F1B7966D20070938D /* UIViewControllerEditarPerfil.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UIViewControllerEditarPerfil.swift; path = ARegraEClara/UIViewControllerEditarPerfil.swift; sourceTree = "<group>"; };
+		C39452841B7BE2C4006C0257 /* Clube.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Clube.swift; sourceTree = "<group>"; };
+		C39452861B7BEAD3006C0257 /* ClubeLine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClubeLine.swift; sourceTree = "<group>"; };
+		C39452881B7BEE12006C0257 /* CampeonatoLine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CampeonatoLine.swift; sourceTree = "<group>"; };
+		C394528A1B7BF38F006C0257 /* Pergunta.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Pergunta.swift; sourceTree = "<group>"; };
+		C394528C1B7BF50E006C0257 /* PerguntaLine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PerguntaLine.swift; sourceTree = "<group>"; };
 		C3BC989B1B752C8C00982370 /* myCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = myCell.swift; sourceTree = "<group>"; };
 		C3BC989D1B75454A00982370 /* UIViewControllerRegras.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UIViewControllerRegras.swift; path = ARegraEClara/UIViewControllerRegras.swift; sourceTree = "<group>"; };
 		C3D2F9DF1B7AEA46002DEBAC /* RegraLine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegraLine.swift; sourceTree = "<group>"; };
@@ -192,9 +202,14 @@
 			children = (
 				C3EA26711B79313500463657 /* Regra.swift */,
 				C3D2F9DF1B7AEA46002DEBAC /* RegraLine.swift */,
-				C3EA26781B794F1B00463657 /* Jogador.swift */,
+				C39452841B7BE2C4006C0257 /* Clube.swift */,
+				C39452861B7BEAD3006C0257 /* ClubeLine.swift */,
 				C379491B1B7963C20070938D /* Campeonato.swift */,
+				C39452881B7BEE12006C0257 /* CampeonatoLine.swift */,
+				C3EA26781B794F1B00463657 /* Jogador.swift */,
 				C379491D1B7964DF0070938D /* Ranking.swift */,
+				C394528A1B7BF38F006C0257 /* Pergunta.swift */,
+				C394528C1B7BF50E006C0257 /* PerguntaLine.swift */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -336,8 +351,10 @@
 				C3BC989E1B75454A00982370 /* UIViewControllerRegras.swift in Sources */,
 				C35330C61B74F0BD00BE9D96 /* ViewController.swift in Sources */,
 				C35330FB1B74F2D300BE9D96 /* UIViewControllerPerguntas.swift in Sources */,
+				C394528D1B7BF50E006C0257 /* PerguntaLine.swift in Sources */,
 				C35330C41B74F0BD00BE9D96 /* AppDelegate.swift in Sources */,
 				C35330F91B74F20800BE9D96 /* UIViewControllerPerfil.swift in Sources */,
+				C39452851B7BE2C4006C0257 /* Clube.swift in Sources */,
 				C3EA26791B794F1B00463657 /* Jogador.swift in Sources */,
 				C35330F71B74F1F100BE9D96 /* UIViewControllerQuiz.swift in Sources */,
 				C3EA26721B79313500463657 /* Regra.swift in Sources */,
@@ -347,9 +364,12 @@
 				C35330FF1B74F34500BE9D96 /* UIViewControllerQuizCampeonato.swift in Sources */,
 				C35331011B74F37C00BE9D96 /* UIViewControllerChamarAmigos.swift in Sources */,
 				C35330FD1B74F30D00BE9D96 /* UIViewControllerRanking.swift in Sources */,
+				C39452871B7BEAD3006C0257 /* ClubeLine.swift in Sources */,
 				C3EA26741B793DD300463657 /* CustomCellRegra.swift in Sources */,
 				C379491C1B7963C20070938D /* Campeonato.swift in Sources */,
+				C39452891B7BEE12006C0257 /* CampeonatoLine.swift in Sources */,
 				C35331031B74F3B700BE9D96 /* UIViewControllerFimJogo.swift in Sources */,
+				C394528B1B7BF38F006C0257 /* Pergunta.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -14,8 +14,10 @@ class UIViewControllerDetalheRegra: UIViewController, UITableViewDataSource, UIT
    
     @IBOutlet weak var tableViewTopicosExcecoes: UITableView!
     @IBOutlet weak var textViewDescricao: UITextView!
+    @IBOutlet weak var imageRegra: UIImageView!
     
     var regra : Regra?
+    
     
     func numberOfSectionsInTableView(tableView: UITableView) -> Int {
         // #warning Incomplete implementation, return the number of sections
@@ -30,8 +32,6 @@ class UIViewControllerDetalheRegra: UIViewController, UITableViewDataSource, UIT
     
     func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCellWithIdentifier("CellTopicos", forIndexPath: indexPath)
-        
-        //let CellExcecao = tableView.dequeueReusableCellWithIdentifier("CellExcecao", forIndexPath: indexPath) as! //CustomCellExcecao
         
         // Configure the cell...
 //        let regraLine = regraLines[indexPath.section]
@@ -71,8 +71,9 @@ class UIViewControllerDetalheRegra: UIViewController, UITableViewDataSource, UIT
         }else{
             title = " "
         }
-
+        imageRegra.image = regra?.imagem
         textViewDescricao.text = regra?.descricao
+        
         
     }
     

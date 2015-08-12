@@ -19,14 +19,14 @@ class UIViewControllerTopicosRegras: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
-//        if let titulo = topicoRegra!.topicos{
+         //Do any additional setup after loading the view, typically from a nib.
+//        if let titulo = topicoRegra?.topicos{
 //            title = titulo
 //        }else{
 //            title = " "
 //        }
-        
-        //textViewDescricaoTopico.text = topicoRegra?.descricao
+//        
+//        textViewDescricaoTopico.text = topicoRegra?.descricao
         
     }
     
