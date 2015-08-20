@@ -9,6 +9,7 @@
 import Foundation
 
 class PerguntaLine {
+    
     var nome : String?
     var perguntas : [Pergunta]
     
@@ -27,11 +28,16 @@ class PerguntaLine {
         
         var perguntas = [Pergunta]()
         
-        perguntas.append(Pergunta(pergunta: "", resposta: "", alternativas: ["", "", "", "", ""], nivel: .Facil))
+        perguntas.append(Pergunta(id: "1", pergunta: "", resposta: "", alternativas: ["", "", "", "", ""], nivel: .Facil))
+        
+        perguntas.append(Pergunta(id: "2", pergunta: "", resposta: "", alternativas: ["", "", "", "", ""], nivel: .Facil))
+        
+        perguntas.append(Pergunta(id: "3", pergunta: "", resposta: "", alternativas: ["", "", "", "", ""], nivel: .Facil))
         
         return  PerguntaLine(named: "iPergunta", incluiPergunta: perguntas)
         
     }
+    
 
 }
 

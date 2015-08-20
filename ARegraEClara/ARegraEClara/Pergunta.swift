@@ -18,12 +18,14 @@ public enum Nivel{
 
 
 class Pergunta {
+    var id : String?
     var descricaoPergunta : String?
     var respostaPergunta : String?
     var alternativasPergunta : [String]?
     var nivelPergunta : Nivel
     
-    init(pergunta:String, resposta:String, alternativas: [String], nivel:Nivel){
+    init(id:String, pergunta:String, resposta:String, alternativas: [String], nivel:Nivel){
+        self.id = id
         self.descricaoPergunta = pergunta
         self.respostaPergunta = resposta
         self.alternativasPergunta = alternativas

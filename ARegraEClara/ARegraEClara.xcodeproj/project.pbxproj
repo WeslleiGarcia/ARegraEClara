@@ -31,6 +31,7 @@
 		C39452891B7BEE12006C0257 /* CampeonatoLine.swift in Sources */ = {isa = PBXBuildFile; fileRef = C39452881B7BEE12006C0257 /* CampeonatoLine.swift */; };
 		C394528B1B7BF38F006C0257 /* Pergunta.swift in Sources */ = {isa = PBXBuildFile; fileRef = C394528A1B7BF38F006C0257 /* Pergunta.swift */; };
 		C394528D1B7BF50E006C0257 /* PerguntaLine.swift in Sources */ = {isa = PBXBuildFile; fileRef = C394528C1B7BF50E006C0257 /* PerguntaLine.swift */; };
+		C3A72D941B864FF50032A750 /* Quiz.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3A72D931B864FF50032A750 /* Quiz.swift */; };
 		C3BC989C1B752C8C00982370 /* myCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3BC989B1B752C8C00982370 /* myCell.swift */; };
 		C3BC989E1B75454A00982370 /* UIViewControllerRegras.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3BC989D1B75454A00982370 /* UIViewControllerRegras.swift */; };
 		C3D2F9E01B7AEA46002DEBAC /* RegraLine.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3D2F9DF1B7AEA46002DEBAC /* RegraLine.swift */; };
@@ -88,6 +89,7 @@
 		C39452881B7BEE12006C0257 /* CampeonatoLine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CampeonatoLine.swift; sourceTree = "<group>"; };
 		C394528A1B7BF38F006C0257 /* Pergunta.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Pergunta.swift; sourceTree = "<group>"; };
 		C394528C1B7BF50E006C0257 /* PerguntaLine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PerguntaLine.swift; sourceTree = "<group>"; };
+		C3A72D931B864FF50032A750 /* Quiz.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Quiz.swift; sourceTree = "<group>"; };
 		C3BC989B1B752C8C00982370 /* myCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = myCell.swift; sourceTree = "<group>"; };
 		C3BC989D1B75454A00982370 /* UIViewControllerRegras.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UIViewControllerRegras.swift; path = ARegraEClara/UIViewControllerRegras.swift; sourceTree = "<group>"; };
 		C3D2F9DF1B7AEA46002DEBAC /* RegraLine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegraLine.swift; sourceTree = "<group>"; };
@@ -210,6 +212,7 @@
 				C379491D1B7964DF0070938D /* Ranking.swift */,
 				C394528A1B7BF38F006C0257 /* Pergunta.swift */,
 				C394528C1B7BF50E006C0257 /* PerguntaLine.swift */,
+				C3A72D931B864FF50032A750 /* Quiz.swift */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -361,6 +364,7 @@
 				C3EA26761B79461300463657 /* UIViewControllerDetalheRegra.swift in Sources */,
 				C37949201B7966D20070938D /* UIViewControllerEditarPerfil.swift in Sources */,
 				C3D2F9E01B7AEA46002DEBAC /* RegraLine.swift in Sources */,
+				C3A72D941B864FF50032A750 /* Quiz.swift in Sources */,
 				C35330FF1B74F34500BE9D96 /* UIViewControllerQuizCampeonato.swift in Sources */,
 				C35331011B74F37C00BE9D96 /* UIViewControllerChamarAmigos.swift in Sources */,
 				C35330FD1B74F30D00BE9D96 /* UIViewControllerRanking.swift in Sources */,
